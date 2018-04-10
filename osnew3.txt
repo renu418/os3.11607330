@@ -1,0 +1,6 @@
+ burst_time[i] = burst_time[position];
+            burst_time[position] = temp;
+            temp = process[i];
+            process[i] = process[position];
+            process[position] = temp;
+      }
